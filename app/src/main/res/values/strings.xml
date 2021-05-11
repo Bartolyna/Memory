@@ -1,0 +1,22 @@
+<resources>
+    //NOMBRE
+    <string name="app_name">Memory</string>
+    //MENU
+    <string name="boton_login">Login</string>
+    <string name="boton_registro">Registro</string>
+    //REGISTRO
+    <string name="correo">Correo Electronico</string>
+    <string name="pass">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="fecha">Fecha</string>
+    <string name="registrar">Registrar</string>
+    //LOGIN
+    <string name="correoL">Correo Electronico</string>
+    <string name="passL">Contraseña</string>
+    <string name="login">Ingresar</string>
+
+    <string name="boton_init_play">Jugar</string>
+    <string name="boton_init_quit">Salir</string>
+    <string name="boton_juego_reinit">Reiniciar</string>
+    <string name="boton_juego_quit">Salir</string>
+</resources>

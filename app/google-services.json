@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "547609616177",
+    "project_id": "juego-memory",
+    "storage_bucket": "juego-memory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547609616177:android:d8babf0f44bec7982a1a10",
+        "android_client_info": {
+          "package_name": "com.cavanosa.tutorialmemory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547609616177-kimtm644hi921dmpidfc9sppdj29jsl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cavanosa.tutorialmemory",
+            "certificate_hash": "7a66a0e1adeac5e316a9488fda7bc3950b1810e4"
+          }
+        },
+        {
+          "client_id": "547609616177-fejsaalhngiqqb243lmpr86c8771ms1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuMa4cYco6DRGNu_gksSgrROy2jJj_jiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547609616177-fejsaalhngiqqb243lmpr86c8771ms1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

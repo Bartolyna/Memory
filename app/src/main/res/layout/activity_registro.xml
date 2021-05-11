@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Registro">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <!--CORREO ELECTRONICO -->
+        <EditText
+            android:id="@+id/correo"
+            android:hint="@string/correo"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no" />
+
+        <!--CONTRASEÑA -->
+        <EditText
+            android:id="@+id/pass"
+            android:hint="@string/pass"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+
+        <!-- NOMBRE-->
+        <EditText
+            android:id="@+id/nombre"
+            android:hint="@string/nombre"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+
+        <!--FECHA-->
+        <TextView
+            android:id="@+id/fecha"
+            android:hint="@string/fecha"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--BOTON REGISTRARSE -->
+        <Button
+            android:id="@+id/registrar"
+            android:text="@string/registrar"
+            android:layout_marginTop="10dp"
+            android:background="#340887"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
